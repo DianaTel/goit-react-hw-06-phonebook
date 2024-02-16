@@ -4,7 +4,7 @@ import { InputStyle, LabelStyle, ButtonStyle } from 'components/App.styled';
 import { nanoid } from 'nanoid';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, getPhoneBookValue } from 'redux/phoneBookSlice';
+import { addContact, getPhoneBookValue } from '../../redux/phoneBookSlice';
 
 export const Form = () => {
   const [name, setName] = useState('');

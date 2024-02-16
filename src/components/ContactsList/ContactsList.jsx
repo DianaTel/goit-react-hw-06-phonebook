@@ -1,8 +1,8 @@
 import { ContactListStyle, ContactItemStyle } from './ContactsList.styled';
 import { ButtonStyle } from 'components/App.styled';
-import { getFilter } from 'redux/filterSlice';
+import { getFilter } from '../../redux/filterSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { delContact, getPhoneBookValue } from 'redux/phoneBookSlice';
+import { delContact, getPhoneBookValue } from '../../redux/phoneBookSlice';
 
 export const ContactsList = () => {
   const dispatch = useDispatch();
